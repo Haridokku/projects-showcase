@@ -1,0 +1,71 @@
+.appContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.headerContainer {
+  width: 100%;
+  height: 30vh;
+  background-color: #cbd5e1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 30px;
+}
+.logo {
+  width: 300px;
+  height: 150px;
+}
+.bodyContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+.selectContainer {
+  width: 400px;
+  height: 40px;
+  border: 1px solid #328af2;
+  border-radius: 5px;
+  padding: 10px;
+  color: #475569;
+  font-size: 15px;
+  align-self: flex-start;
+}
+.loadingContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  width: 300px;
+  height: 300px;
+}
+.heading {
+  color: #475569;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.describe {
+  color: #cbd5e1;
+  font-size: 18px;
+  font-weight: 300;
+  font-family: 'Roboto';
+}
+.retryBtn {
+  color: #ffffff;
+  background-color: #328af2;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 8px 16px 8px 16px;
+}
+.unorderedList {
+  display: flex;
+  padding-left: 0px;
+  flex-wrap: wrap;
+}
